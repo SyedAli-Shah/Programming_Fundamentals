@@ -4,9 +4,9 @@ int main(){
     printf("Enter the temperature in Celsius:");
     scanf("%f",&temp);
     if (temp<15)
-    {printf("Cold");}
+    {printf("The Weather is Cold.");}
     else if (temp>=15&&temp<=30)
-    {printf("Normal");}
-    else {printf("Hot");}
+    {printf("The Weather is Normal.");}
+    else {printf("The Weather is Hot.");}
     return 0;
 }
