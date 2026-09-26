@@ -111,7 +111,7 @@ int main(){
         scanf("%d",&x);
         if (x==pin_sa)
         {printf("Enter The Old Pin:");
-         scanf("%d",&z);
+         scanf("%d",&x);
          pin_sa=a;}
          else {printf("You Entered Wrong Pin");}
          break;
