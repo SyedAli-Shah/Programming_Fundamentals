@@ -29,7 +29,6 @@ int main (){
         bill[i]=bill[i]+(0.05*bill[i]);}
         else {bill[i]=10*units[i];}
         tot_amt+=bill[i];
-        printf("\nThe Bill of Household %d is %.2f",a,bill[i]);
         i++;
     }
 
