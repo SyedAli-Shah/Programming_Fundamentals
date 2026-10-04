@@ -19,6 +19,7 @@ int main (){
         else if ((x+y)>=5000)
         {
             printf("\nRecharge Limit Reached And The Last recharge Can not Possible.");
+            i=0;
         }
         else  {i=0;}
        
